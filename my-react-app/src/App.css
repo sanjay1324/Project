@@ -1,0 +1,45 @@
+html {
+  width: 100%;
+  justify-content: space-between;
+  height: 100vh;
+  background-size: contain;
+  background-position: center;
+  /* Initial opacity set to 0 */
+  animation: fadeIn 1s ease-in-out forwards;
+}
+
+body {
+  color: gold;
+  /* background: #081b29; */
+}
+
+.header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px 3%;
+  background: honeydew;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.navbar a {
+  display: inline-block;
+  font-size: 25px;
+  position: relative;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 15px;
+  transition: .3s;
+  opacity: 1;
+  animation: slideTop .5s ease forwards;
+}
+
+.navbar a:hover {
+  background: #0ef;
+  color: #081b29;
+  box-shadow: 0 0 20px #0ef;
+}
