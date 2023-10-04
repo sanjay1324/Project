@@ -22,6 +22,7 @@ export const PRODUCTS =[
     {
         id:3,
         productName:"CPU",
+        price:999.0,
         productImage: product3,
     },
     {
