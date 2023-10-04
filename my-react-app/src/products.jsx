@@ -41,6 +41,7 @@ export const PRODUCTS =[
         price:999.0,
         productImage: product6,
     },
+    
 ];
 
 // src/data.js
