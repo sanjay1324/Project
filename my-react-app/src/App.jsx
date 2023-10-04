@@ -4,10 +4,12 @@ import './App.css'
 import { Navbar } from "./components/nav"
 import{Shop} from "./pages/shop/shop";
 import {Cart} from "./pages/cart/cart";
+import { ShopContextProvider } from './context/shop-context';
 function App() {
   return (
     <>
          <div className='App'>
+          <ShopContextProvider>
             <Router>
               <Navbar />
               <Routes>
@@ -18,6 +20,7 @@ function App() {
 
               </Routes>
             </Router>
+            </ShopContextProvider>
          </div>
     </>
   )
